@@ -4,7 +4,7 @@ import * as React from "react";
 import Container from "../components/Container";
 import ElementContainer from "../components/ElementContainer";
 
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import Seo from "../components/seo";
 
 const NotFoundPage = () => (

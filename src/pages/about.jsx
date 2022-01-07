@@ -4,7 +4,7 @@ import Container from "../components/Container";
 import ElementContainer from "../components/ElementContainer";
 import Faq from "../components/Faq";
 
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import MyStack from "../components/MyStack";
 import Seo from "../components/seo";
 
