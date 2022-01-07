@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Loopstudio landing page",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio deleniti dolores consequatur perferendis eos, praesentium beatae quos perspiciatis minus.",
+    "url": ["https://www.google.com", "https://www.youtube.com"],
+    "image": "../assets/images/loopstudio-thumb.png",
+    "stack": ["html&css", "tailwindcss"]
+  },
+  {
+    "title": "Loopstudio landing page",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio deleniti dolores consequatur perferendis eos, praesentium beatae quos perspiciatis minus.",
+    "url": ["https://www.google.com", "https://www.youtube.com"],
+    "image": "../assets/images/loopstudio-thumb.png",
+    "stack": ["html&css", "sass", "js"]
+  },
+  {
+    "title": "Loopstudio landing page",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio deleniti dolores consequatur perferendis eos, praesentium beatae quos perspiciatis minus.",
+    "url": ["https://www.google.com", "https://www.youtube.com"],
+    "image": "../assets/images/loopstudio-thumb.png",
+    "stack": ["react"]
+  },
+  {
+    "title": "Loopstudio landing page",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio deleniti dolores consequatur perferendis eos, praesentium beatae quos perspiciatis minus.",
+    "url": ["https://www.google.com", "https://www.youtube.com"],
+    "image": "../assets/images/loopstudio-thumb.png",
+    "stack": ["nextjs"]
+  }
+]
