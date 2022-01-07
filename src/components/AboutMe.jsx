@@ -57,18 +57,21 @@ function AboutMe({ home }) {
                   <div className="space-y-3">
                     <h3 className="clamp-4 font-heading font-bold">My Links</h3>
                     <div className="flex space-x-4">
-                      <div className="h-7 w-20 bg-var-very-dark-blue rounded-lg text-var-off-white clamp-5 flex items-center justify-center">
-                        GitHub
-                      </div>
                       <a
+                        href="https://github.com/Dani2294"
+                        target="_blank"
+                        className="h-7 w-20 bg-var-very-dark-blue rounded-lg text-var-off-white clamp-5 flex items-center justify-center"
+                      >
+                        My GitHub
+                      </a>
+                      {/*  <a
                         href={`../docs/my-cv.pdf`}
                         target="_blank"
                         rel="noreferrer"
-                        /* onClick={showCV} */
                         className="h-7 w-20 bg-var-very-dark-blue rounded-lg text-var-off-white clamp-5 flex items-center justify-center"
                       >
                         Print my CV
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </>

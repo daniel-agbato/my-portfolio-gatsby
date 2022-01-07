@@ -42,12 +42,14 @@ function ProjectCard({ project }) {
           <div className="flex items-center space-x-3">
             <a
               href={url[0]}
+              target="_blank"
               className="block rounded-xl shadow bg-var-secondary text-var-off-white py-2 px-4 transform hover:opacity-80 active:scale-95"
             >
               Demo
             </a>
             <a
               href={url[1]}
+              target="_blank"
               className="block rounded-xl shadow bg-var-primary text-var-off-white py-2 px-4 transform hover:opacity-80 active:scale-95"
             >
               Code
@@ -58,24 +60,5 @@ function ProjectCard({ project }) {
     </div>
   );
 }
-
-/* 
-<div key={id}>
-            <GatsbyImage image={img} alt={project.title} key={id} />
-            <h3>{project.title}</h3>
-            <p>{project.description}</p>
-            <div className="space-y-2">
-              {project.stack.map((item, idx) => (
-                <p key={`${item}-${idx}`}>{item}</p>
-              ))}
-            </div>
-            <a href="#" className="block">
-              {project.url[0]}
-            </a>
-            <a href="#" className="block">
-              {project.url[1]}
-            </a>
-          </div>
- */
 
 export default ProjectCard;

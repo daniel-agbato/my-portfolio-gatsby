@@ -48,12 +48,14 @@ const Footer = () => {
               <div className="contact-links flex items-center space-x-5">
                 <a
                   href="mailto:agbato.dani@gmail.com"
+                  target="_blank"
                   className="border-2 border-var-off-white hover:border-var-secondary rounded-lg p-2 group cursor-pointer"
                 >
                   <MdAlternateEmail className="text-var-off-white group-hover:text-var-secondary" />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/daniel-agbato-06981b121/"
+                  target="_blank"
                   className="border-2 border-var-off-white hover:border-var-secondary rounded-lg p-2 group cursor-pointer"
                 >
                   <SiLinkedin className="text-var-off-white group-hover:text-var-secondary" />

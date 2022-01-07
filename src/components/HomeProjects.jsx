@@ -40,7 +40,7 @@ function HomeProjects({ projects }) {
           <ProjectsContainer projects={projects} />
           <Link
             to="/projects"
-            className="sm:hidden page-link clamp-4 group mt-5"
+            className="sm:hidden page-link clamp-3 sm:clamp-4 group mt-5"
           >
             See all projects{" "}
             <svg
