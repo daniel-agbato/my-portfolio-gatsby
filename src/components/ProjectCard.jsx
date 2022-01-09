@@ -28,7 +28,7 @@ function ProjectCard({ project }) {
           <div className="flex flex-wrap space-x-2">
             {stack?.map((item, idx) => (
               <span
-                className="border-2 border-var-primary rounded-md py-0.5 px-2 clamp-5 font-bold mt-1"
+                className="border border-var-primary rounded-md py-0.5 px-2 clamp-5 font-bold mt-1"
                 key={`${item}-${idx}`}
               >
                 {item}
@@ -39,18 +39,20 @@ function ProjectCard({ project }) {
           <hr className="my-4" />
 
           {/* Project links */}
-          <div className="flex items-center space-x-3">
+          <div className="flex items-center space-x-3 text-center">
             <a
               href={url[0]}
               target="_blank"
-              className="block rounded-xl shadow bg-var-secondary text-var-off-white py-2 px-4 transform hover:opacity-80 active:scale-95"
+              rel="noreferrer"
+              className="block w-full rounded-xl shadow-md bg-var-secondary text-var-off-white py-2 px-4 transform hover:opacity-80 active:scale-95"
             >
               Demo
             </a>
             <a
               href={url[1]}
               target="_blank"
-              className="block rounded-xl shadow bg-var-primary text-var-off-white py-2 px-4 transform hover:opacity-80 active:scale-95"
+              rel="noreferrer"
+              className="block w-full rounded-xl shadow-md bg-var-primary text-var-off-white py-2 px-4 transform hover:opacity-80 active:scale-95"
             >
               Code
             </a>

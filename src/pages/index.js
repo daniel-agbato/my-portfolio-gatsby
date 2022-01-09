@@ -10,7 +10,6 @@ import HomeProjects from "../components/HomeProjects";
 
 const IndexPage = ({ data }) => {
   const projects = data.allProjectsJson.edges.slice(0, 3);
-  console.log(projects);
 
   return (
     <Layout>

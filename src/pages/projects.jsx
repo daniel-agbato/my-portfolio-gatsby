@@ -19,7 +19,7 @@ const Projects = ({ data }) => {
     if (val === "all") {
       return setProjectsArr(projects);
     }
-    const filteredProjects = projectsArr.filter(project => {
+    const filteredProjects = projects.filter(project => {
       const arr = project.node;
       return arr.stack.includes(val);
     });

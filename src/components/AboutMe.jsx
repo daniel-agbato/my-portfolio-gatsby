@@ -60,6 +60,7 @@ function AboutMe({ home }) {
                       <a
                         href="https://github.com/Dani2294"
                         target="_blank"
+                        rel="noreferrer"
                         className="h-7 w-20 bg-var-very-dark-blue rounded-lg text-var-off-white clamp-5 flex items-center justify-center"
                       >
                         My GitHub
