@@ -8,27 +8,57 @@ function AboutMe({ home }) {
   return (
     <ElementContainer>
       <section className="py-5 my-10">
-        <div className="flex flex-col md:flex-row md:justify-between">
-          <div className="md:w-[55%] pt-0">
+        <div className="flex flex-col sm:flex-row sm:justify-between">
+          <div className="sm:w-[55%] pt-0">
             <p className="sub-heading clamp-5">What kind of developper</p>
             <h2 className="font-heading clamp-2 font-bold mb-7">Who i'am ?</h2>
-            <div className="space-y-7 sm:max-w-md md:max-w-xl">
+            <div className="space-y-7 xl:max-w-xl">
               <p className="clamp-4">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Voluptatibus,{" "}
+                Hi, I'm Daniel Agbato, a young aspirant{" "}
                 <em className="text-var-accent font-bold">
-                  accusantium officia
+                  Front-End Developer
                 </em>
-                . Quia minus quo neque distinctio. Quibusdam ea aperiam,
-                eligendi dolores minima aliquid, sapiente vero iste recusandae
-                assumenda ipsa repellat!
+                . I come from commerce world and now i've fixed myself a new
+                goal of working in the tech world. <br />{" "}
+                <em className="text-var-accent font-bold">
+                  Learn - Do it - Repeat
+                </em>
+                , that's my everyday mindset to help me become a better
+                developer. I see myself as a{" "}
+                <em className="text-var-accent font-bold">
+                  visual thinking person
+                </em>{" "}
+                so that's why a naturally feel comfortable with Front-End side,
+                even though{" "}
+                <em className="text-var-accent font-bold">
+                  i also use the Back-End side
+                </em>{" "}
+                when i build some projects.
               </p>
-              <p className="clamp-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-                architecto dolore nesciunt iusto et explicabo! Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Pariatur consequatur
-                natus qui totam.
-              </p>
+
+              <div className="flex space-x-20">
+                <div className="">
+                  <h4 className="clamp-4 font-heading font-semibold mb-2">
+                    Interests
+                  </h4>
+                  <ul className="list-disc list-inside pl-2">
+                    <li>Coding/Computing</li>
+                    <li>New techs</li>
+                    <li>Football</li>
+                    <li>Automobile</li>
+                  </ul>
+                </div>
+                {/* <div className="">
+                  <h4 className="clamp-4 font-heading font-semibold mb-2">
+                    Experiences
+                  </h4>
+                  <ul className="list-disc list-inside pl-2">
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                  </ul>
+                </div> */}
+              </div>
 
               {home ? (
                 <>
@@ -61,7 +91,7 @@ function AboutMe({ home }) {
                         href="https://github.com/Dani2294"
                         target="_blank"
                         rel="noreferrer"
-                        className="h-7 w-20 bg-var-very-dark-blue rounded-lg text-var-off-white clamp-5 flex items-center justify-center"
+                        className="clamp-5 flex items-center justify-center h-7 w-20 border-2 border-var-primary rounded-lg font-bold hover:border-var-secondary hover:bg-var-secondary hover:text-var-off-white cursor-pointer transform hover:opacity-80 active:scale-95"
                       >
                         My GitHub
                       </a>
@@ -79,13 +109,13 @@ function AboutMe({ home }) {
               )}
             </div>
           </div>
-          <div className="rounded-md overflow-hidden mt-7 w-full xs:h-full base:h-[470px] md:mt-0 md:w-[35%] md:h-full">
+          <div className="rounded-md overflow-hidden mt-7 w-full lg:h-[530px] sm:mt-0 sm:w-[35%]">
             <StaticImage
               src="../assets/images/isThatMe.jpg"
               alt="my portrait"
               layout="fullWidth"
               placeholder="blurred"
-              imgClassName="w-full h-full rounded-md object-cover object-top"
+              imgClassName="rounded-md object-cover object-top"
             />
           </div>
         </div>

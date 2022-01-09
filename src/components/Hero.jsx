@@ -13,11 +13,11 @@ function Hero() {
               <span className="text-var-secondary">Daniel Agbato.</span>
             </h1>
             <p className="clamp-3 w-full md:self-center md:w-[80%]">
-              A self-taugth{" "}
+              A self-taught{" "}
               <em className="font-bold text-var-accent">Web Developer</em>
               ,
               <br />
-              who will make your projects idea live.
+              who will make your project ideas live.
             </p>
           </div>
           <div className="flex justify-start mt-16">

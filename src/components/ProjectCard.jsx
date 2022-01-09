@@ -10,19 +10,25 @@ function ProjectCard({ project }) {
   const url = project.url;
   return (
     <div className="flex flex-col bg-var-off-white overflow-hidden rounded-b-lg shadow-element">
-      <GatsbyImage image={img} alt={title} />
-      <div className="flex flex-col px-4 sm:px-6 pt-6 pb-4 sm:pt-8 sm:pb-6 mt-auto">
-        {/* <!-- Project Title --> */}
-        <h3 className="font-heading clamp-3 font-semibold">{title}</h3>
+      <GatsbyImage
+        image={img}
+        alt={title}
+        className="h-[80%] transform transition duration-1000 md:hover:scale-110"
+      />
+      <div className="flex flex-col h-full justify-between px-4 sm:px-6 pt-6 pb-4">
+        <div className="">
+          {/* <!-- Project Title --> */}
+          <h3 className="font-heading clamp-3 font-semibold">{title}</h3>
 
-        <hr className="mt-4 mb-3" />
+          <hr className="mt-4 mb-3" />
 
-        {/* <!-- Porject description --> */}
-        <p className="clamp-5 line-clamp-3 hover:line-clamp-none active:line-clamp-none">
-          {desc}
-        </p>
+          {/* <!-- Porject description --> */}
+          <p className="clamp-5 md:line-clamp-3 hover:line-clamp-none active:line-clamp-none max-w-sm">
+            {desc}
+          </p>
+        </div>
 
-        <div className="mt-auto">
+        <div className="">
           {/* <!-- Project Stack --> */}
           <p className="font-bold clamp-4 mt-5 mb-1">Build with:</p>
           <div className="flex flex-wrap space-x-2">
@@ -44,7 +50,7 @@ function ProjectCard({ project }) {
               href={url[0]}
               target="_blank"
               rel="noreferrer"
-              className="block w-full rounded-xl shadow-md bg-var-secondary text-var-off-white py-2 px-4 transform hover:opacity-80 active:scale-95"
+              className="block w-full rounded-xl shadow-md bg-var-secondary text-var-off-white py-2 px-4 transform hover:opacity-80 active:scale-95 cursor-pointer"
             >
               Demo
             </a>
@@ -52,7 +58,7 @@ function ProjectCard({ project }) {
               href={url[1]}
               target="_blank"
               rel="noreferrer"
-              className="block w-full rounded-xl shadow-md bg-var-primary text-var-off-white py-2 px-4 transform hover:opacity-80 active:scale-95"
+              className="block w-full rounded-xl shadow-md bg-var-primary text-var-off-white py-2 px-4 transform hover:opacity-80 active:scale-95 cursor-pointer"
             >
               Code
             </a>

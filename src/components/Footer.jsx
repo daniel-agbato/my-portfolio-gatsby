@@ -1,5 +1,4 @@
 import * as React from "react";
-import PropTypes from "prop-types";
 import Container from "./Container";
 import { IconContext } from "react-icons";
 import { MdAlternateEmail } from "react-icons/md";
@@ -42,23 +41,25 @@ const Footer = () => {
             </h2>
             <div className="mb-14">
               <p className="text-var-off-white clamp-4 mb-4 max-w-lg">
-                Ready to talk with me? Click on one of the buttons listed bellow
-                to send me an email or a message on my socials:
+                Ready to talk with me? Click on one of the following buttons to
+                send me an email or a message on my socials:
               </p>
               <div className="contact-links flex items-center space-x-5">
                 <a
                   href="mailto:agbato.dani@gmail.com"
                   target="_blank"
-                  className="border-2 border-var-off-white hover:border-var-secondary rounded-lg p-2 group cursor-pointer"
+                  rel="noreferrer"
+                  className="border-2 border-var-off-white hover:border-var-secondary hover:bg-var-secondary rounded-lg p-2 group cursor-pointer"
                 >
-                  <MdAlternateEmail className="text-var-off-white group-hover:text-var-secondary" />
+                  <MdAlternateEmail className="text-var-off-white" />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/daniel-agbato-06981b121/"
                   target="_blank"
-                  className="border-2 border-var-off-white hover:border-var-secondary rounded-lg p-2 group cursor-pointer"
+                  rel="noreferrer"
+                  className="border-2 border-var-off-white hover:border-var-secondary hover:bg-var-secondary rounded-lg p-2 group cursor-pointer"
                 >
-                  <SiLinkedin className="text-var-off-white group-hover:text-var-secondary" />
+                  <SiLinkedin className="text-var-off-white" />
                 </a>
               </div>
             </div>
@@ -72,14 +73,6 @@ const Footer = () => {
       </footer>
     </IconContext.Provider>
   );
-};
-
-Footer.propTypes = {
-  siteTitle: PropTypes.string,
-};
-
-Footer.defaultProps = {
-  siteTitle: ``,
 };
 
 export default Footer;

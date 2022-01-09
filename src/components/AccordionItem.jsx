@@ -31,7 +31,7 @@ function AccordionItem({ question, answer }) {
             leaveFrom="transform scale-y-100 opacity-100"
             leaveTo="transform scale-y-0 opacity-0"
           >
-            <Disclosure.Panel className="pt-3 pb-2 px-3 bg-slate-50 text-sm rounded-b-lg leading-6">
+            <Disclosure.Panel className="pt-3 pb-2 px-3 -mt-3 bg-slate-50 text-sm rounded-b-lg leading-6">
               {answer}
             </Disclosure.Panel>
           </Transition>

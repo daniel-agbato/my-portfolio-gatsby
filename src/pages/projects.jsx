@@ -49,7 +49,7 @@ const Projects = ({ data }) => {
                 <option value="gatsby">Gatsby</option>
               </select>
             </div>
-            <ProjectsContainer projects={projectsArr} />
+            <ProjectsContainer projects={projectsArr} filterVal={filterVal} />
           </section>
         </ElementContainer>
       </Container>
