@@ -11,12 +11,32 @@
   },
   {
     "title": "Hulu Clone",
-    "description": "This is a rebuild of an hulu movie site. This project is build using the TMDB api and showcase movies base on categorie with details on each movie.",
+    "description": "This is a rebuild of a Hulu movie site. This project is built using the TMDB API and showcase movies based on categories with details on each movie.",
     "url": [
       "https://hulu-clone-react-ten.vercel.app/",
       "https://github.com/Dani2294/hulu-clone-react"
     ],
     "image": "../assets/images/hulu-clone-thumb.png",
-    "stack": ["react", "tailwindcss"]
+    "stack": ["react", "tailwindcss", "api"]
+  },
+  {
+    "title": "Rest Countries Search",
+    "description": "This is a SPA who displays countries and details about each of them. Dark Mode and country filtration are also included",
+    "url": [
+      "https://redo-rest-countries-api-next-app.vercel.app/",
+      "https://github.com/Dani2294/redo-rest-countries-api-next-app"
+    ],
+    "image": "../assets/images/rest-countries-search-thumb.png",
+    "stack": ["nextjs", "tailwindcss", "api"]
+  },
+  {
+    "title": "Calculator App",
+    "description": "This project is a simple calculator app with color theme switching",
+    "url": [
+      "https://calculator-app-three-psi.vercel.app/",
+      "https://github.com/Dani2294/calculator-app"
+    ],
+    "image": "../assets/images/calculator-app-thumb.png",
+    "stack": ["js", "tailwindcss"]
   }
 ]

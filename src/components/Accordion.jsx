@@ -6,7 +6,7 @@ function Accordion() {
     <div className="w-full md:max-w-xl space-y-4">
       <AccordionItem
         question="Why web developer ?"
-        answer="Since my youth, I've always been interested by technologies. In 2020, I dove into the world of web development and I fell in love with it. I start my self-taught learning course with YouTube and online course for a year, during which I build some personal projects (including this portfolio website) and amasses a lot of experience"
+        answer="Since my youth, I've always been interested by technologies. In 2020, I dove into the world of web development and I fell in love with it. I start my self-taught learning path with YouTube and online course for a year, during which I build some personal projects (including this portfolio website) and amasses a lot of experience"
       />
       <AccordionItem
         question="With which stack you like to work ?"
@@ -14,7 +14,7 @@ function Accordion() {
       />
       <AccordionItem
         question="What's your dream job ?"
-        answer="Sincerely, anywhere where I feel good and can learn, practice my coding skills. I'm confident and ready to work with a team to help ourselves and the company!"
+        answer="Sincerely, anywhere where I feel good and can learn, practice, improve my coding skills. I'm confident and ready to work with a team to help each other and the company!"
       />
       <AccordionItem
         question="What's the meaning of life ?"

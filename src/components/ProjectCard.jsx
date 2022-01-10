@@ -13,12 +13,14 @@ function ProjectCard({ project }) {
       <GatsbyImage
         image={img}
         alt={title}
-        className="h-[80%] transform transition duration-1000 md:hover:scale-110"
+        className="h-[70%] transform transition duration-1000 md:hover:scale-105"
       />
-      <div className="flex flex-col h-full justify-between px-4 sm:px-6 pt-6 pb-4">
+      <div className="flex flex-col justify-between h-full px-4 sm:px-6 pt-6 pb-4">
         <div className="">
           {/* <!-- Project Title --> */}
-          <h3 className="font-heading clamp-3 font-semibold">{title}</h3>
+          <h3 className="font-heading clamp-3 md:clamp-4 font-semibold">
+            {title}
+          </h3>
 
           <hr className="mt-4 mb-3" />
 

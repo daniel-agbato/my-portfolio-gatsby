@@ -77,7 +77,7 @@ function NavBar() {
                 }
               }}
               to="#contact"
-              className="block text-lg font-bold text-var-off-white bg-var-secondary rounded-lg py-1.5 px-3 transform transition md:hover:opacity-80 active:scale-95"
+              className="block text-lg font-bold text-var-off-white bg-var-secondary rounded-xl py-1.5 px-3 transform transition md:hover:opacity-80 active:scale-95"
             >
               Contact
             </Link>

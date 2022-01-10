@@ -17,7 +17,7 @@ function Hero() {
               <em className="font-bold text-var-accent">Web Developer</em>
               ,
               <br />
-              who will make your project ideas live.
+              who will make your project ideas live!
             </p>
           </div>
           <div className="flex justify-start mt-16">
