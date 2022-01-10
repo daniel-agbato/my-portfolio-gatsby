@@ -3,7 +3,7 @@ module.exports = {
     title: `My Portfolio`,
     description: `Welcome on my portfolio where i showcase my most recent work and my evert day stack`,
     author: `@daniagb`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://my-portfolio-gatsby-ten.vercel.app/`,
   },
   plugins: [
     `gatsby-plugin-postcss`,
@@ -37,7 +37,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/assets/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/assets/images/danielAgb.ico`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

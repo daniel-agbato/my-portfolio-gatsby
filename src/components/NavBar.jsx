@@ -10,14 +10,14 @@ function NavBar() {
 
   return (
     <IconContext.Provider value={{}}>
-      <nav className="relative flex flex-wrap justify-between items-center py-3">
+      <nav className="relative flex flex-wrap justify-between items-center py-1">
         {/* Logo */}
         <div className="logo">
           <Link to="/">
             <StaticImage
-              src="../assets/images/gatsby-icon.png"
+              src="../assets/images/daniAgb-logo.svg"
               alt="site logo"
-              height={40}
+              height={60}
             />
           </Link>
         </div>
