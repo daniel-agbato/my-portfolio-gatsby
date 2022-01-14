@@ -13,7 +13,7 @@ function HomeProjects({ projects }) {
             <div>
               <p className="sub-heading clamp-5">My works</p>
               <h2 className="font-heading clamp-2 font-bold">
-                Recents projects
+                Recent projects
               </h2>
             </div>
             <Link

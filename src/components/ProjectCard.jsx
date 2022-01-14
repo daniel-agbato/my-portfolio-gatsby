@@ -32,7 +32,7 @@ function ProjectCard({ project }) {
 
         <div className="">
           {/* <!-- Project Stack --> */}
-          <p className="font-bold clamp-4 mt-5 mb-1">Build with:</p>
+          <p className="font-bold clamp-4 mt-5 mb-1">Built with:</p>
           <div className="flex flex-wrap space-x-2">
             {stack?.map((item, idx) => (
               <span

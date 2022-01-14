@@ -10,7 +10,7 @@ function NavBar() {
 
   return (
     <IconContext.Provider value={{}}>
-      <nav className="relative flex flex-wrap justify-between items-center py-1">
+      <nav className="relative flex flex-wrap justify-between items-center py-3 md:py-1 navigation">
         {/* Logo */}
         <div className="logo">
           <Link to="/">
@@ -77,7 +77,7 @@ function NavBar() {
                 }
               }}
               to="#contact"
-              className="block text-lg font-bold text-var-off-white bg-var-secondary rounded-xl py-1.5 px-3 transform transition md:hover:opacity-80 active:scale-95"
+              className="inline-block w-max text-lg font-bold text-var-off-white bg-var-secondary rounded-xl py-1.5 px-3 transform transition md:w-auto md:hover:opacity-80 active:scale-95"
             >
               Contact
             </Link>
