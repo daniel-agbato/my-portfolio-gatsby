@@ -32,7 +32,7 @@ const Footer = () => {
         size: "1.5em",
       }}
     >
-      <footer id="contact" /* ref={footerRef} */ className="">
+      <footer id="contact" /* ref={footerRef} */ className="mt-auto">
         <Container>
           <div className="bg-var-very-dark-blue rounded-t-xl p-4">
             <p className="sub-heading clamp-5">Get in touch</p>

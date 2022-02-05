@@ -9,7 +9,7 @@ import Container from "../components/Container";
 import HomeProjects from "../components/HomeProjects";
 
 const IndexPage = ({ data }) => {
-  const projects = data.allProjectsJson.edges.slice(0, 3);
+  const projects = data.allProjectsJson.edges.reverse().slice(0, 3);
 
   return (
     <Layout>
