@@ -65,7 +65,7 @@ const Footer = () => {
             </div>
 
             <p className="text-center text-var-off-white clamp-5">
-              Copyright &copy; {new Date().getFullYear()} | Designed and build
+              Copyright &copy; {new Date().getFullYear()} | Designed and built
               w/ 🧡 by Daniel Agbato
             </p>
           </div>
