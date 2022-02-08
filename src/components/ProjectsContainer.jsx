@@ -8,7 +8,7 @@ function ProjectsContainer({ projects, filterVal }) {
       {projects.length < 1 ? (
         <p>No {filterVal} projects to show yet...</p>
       ) : (
-        projects.reverse().map(({ node: project }) => {
+        projects.map(({ node: project }) => {
           const id = project.id;
           return <ProjectCard key={id} project={project} />;
         })

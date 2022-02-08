@@ -9,7 +9,9 @@ import ProjectsContainer from "../components/ProjectsContainer";
 import Seo from "../components/seo";
 
 const Projects = ({ data }) => {
-  const projects = data.allProjectsJson.edges;
+  const arr = data.allProjectsJson.edges;
+  const projects =
+    arr[0].node.title === "Loopstudio landing page" ? arr.reverse() : arr;
   const [projectsArr, setProjectsArr] = useState(projects);
   const [filterVal, setFilterVal] = useState("all");
 

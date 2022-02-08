@@ -9,13 +9,15 @@ import Container from "../components/Container";
 import HomeProjects from "../components/HomeProjects";
 
 const IndexPage = ({ data }) => {
-  const projects = data.allProjectsJson.edges.reverse().slice(0, 3);
+  const arr = data.allProjectsJson.edges;
+  const projects =
+    arr[0].node.title === "Loopstudio landing page" ? arr.reverse() : arr;
 
   return (
     <Layout>
       <Seo title="Home" />
       <Hero />
-      <HomeProjects projects={projects} />
+      <HomeProjects projects={projects.slice(0, 3)} />
       <Container>
         <AboutMe home={true} />
       </Container>
