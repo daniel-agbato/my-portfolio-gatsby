@@ -48,5 +48,15 @@
     ],
     "image": "../assets/images/windbnb-devchallenges-thumb.png",
     "stack": ["react", "tailwindcss"]
+  },
+  {
+    "title": "iNOTES",
+    "description": "In this project i wanted to try to recreate APPLE's iNotes app with Vanilla JS. You can add - edit - delete and search notes quickly and easily. It's fully responsive and I've also implemented local storage",
+    "url": [
+      "https://inotes-app.vercel.app/",
+      "https://github.com/Dani2294/inotes-app"
+    ],
+    "image": "../assets/images/inotes-app-thumb.png",
+    "stack": ["js", "html&css"]
   }
 ]

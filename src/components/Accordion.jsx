@@ -10,7 +10,7 @@ function Accordion() {
       />
       <AccordionItem
         question="With which stack you like to work ?"
-        answer="I see myself as a fast learner but, I'm a big fan of React (and everything related to it). I also really like working with Tailwind Css or Styled Components. I'm also comfortable with HTML, pure Css/Sass and Vanilla JS."
+        answer="I see myself as a fast learner but, I'm a big fan of React (and everything related to it). I also really like working with Tailwind Css or Bootstrap. I'm also comfortable with HTML, pure Css/Sass and Vanilla JS."
       />
       <AccordionItem
         question="What's your dream job ?"

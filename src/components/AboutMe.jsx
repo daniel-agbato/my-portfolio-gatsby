@@ -14,7 +14,7 @@ function AboutMe({ home }) {
             <h2 className="font-heading clamp-2 font-bold mb-7">Who i'am ?</h2>
             <div className="space-y-7 xl:max-w-xl">
               <p className="clamp-4">
-                Hi, I'm Daniel Agbato, a young aspirant{" "}
+                Hi, I'm Daniel Agbato, your next{" "}
                 <em className="text-var-accent font-bold">Web Developer</em>
                 . I come from commerce world and now i've fixed myself a new
                 goal of working in the tech world. <br />{" "}
