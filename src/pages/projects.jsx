@@ -45,10 +45,9 @@ const Projects = ({ data }) => {
               >
                 <option value="all">All</option>
                 <option value="html&amp;css">Html &amp; Css</option>
-                <option value="js">Vanilla JS</option>
+                <option value="vanillaJS">Vanilla JS</option>
                 <option value="react">React</option>
-                <option value="nextjs">NextJS</option>
-                <option value="gatsby">Gatsby</option>
+                <option value="php">Php</option>
               </select>
             </div>
             <ProjectsContainer projects={projectsArr} filterVal={filterVal} />

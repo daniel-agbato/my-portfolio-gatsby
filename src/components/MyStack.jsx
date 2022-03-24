@@ -8,9 +8,13 @@ import {
   FaBootstrap,
   FaReact,
 } from "react-icons/fa";
-import { SiTailwindcss, SiJavascript, SiGatsby } from "react-icons/si";
-
-import { StaticImage } from "gatsby-plugin-image";
+import {
+  SiTailwindcss,
+  SiStyledcomponents,
+  SiJavascript,
+  SiPhp,
+  SiSymfony,
+} from "react-icons/si";
 
 function MyStack() {
   return (
@@ -27,42 +31,34 @@ function MyStack() {
         </h2>
         <div className="grid grid-container-auto-fit gap-4">
           <div className="icon">
-            <FaGithub />
+            <FaGithub title="github" />
           </div>
           <div className="icon">
-            <FaHtml5 />
+            <FaHtml5 title="html5" />
           </div>
           <div className="icon">
-            <FaCss3Alt />
+            <FaCss3Alt title="css3" />
           </div>
           <div className="icon">
-            <SiTailwindcss />
+            <SiTailwindcss title="tailwindcss" />
           </div>
           <div className="icon">
-            <FaSass />
+            <FaSass title="sass" />
           </div>
           <div className="icon">
-            <FaBootstrap />
+            <SiStyledcomponents title="styled-components" />
           </div>
           <div className="icon">
-            <SiJavascript />
+            <SiJavascript title="javascript" />
           </div>
           <div className="icon">
-            <FaReact />
+            <FaReact title="react" />
           </div>
           <div className="icon">
-            <div className="w-24">
-              <StaticImage
-                src="../assets/icons/next-js-seeklogo.com.svg"
-                alt="nextJS logo"
-                layout="constrained"
-                placeholder="blurred"
-                imgClassName=""
-              />
-            </div>
+            <SiPhp title="php" />
           </div>
           <div className="icon">
-            <SiGatsby />
+            <SiSymfony title="symfony" />
           </div>
         </div>
       </section>

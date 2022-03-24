@@ -10,13 +10,9 @@ function ProjectCard({ project }) {
   const url = project.url;
   return (
     <div className="flex flex-col bg-var-off-white overflow-hidden rounded-b-lg shadow-element">
-      <GatsbyImage
-        image={img}
-        alt={title}
-        className="h-[70%] transform transition duration-1000 md:hover:scale-105"
-      />
+      <GatsbyImage image={img} alt={title} className="h-[60%]" />
       <div className="flex flex-col justify-between h-full px-4 sm:px-6 pt-6 pb-4">
-        <div className="">
+        <div>
           {/* <!-- Project Title --> */}
           <h3 className="font-heading clamp-3 md:clamp-4 font-semibold">
             {title}
@@ -25,12 +21,10 @@ function ProjectCard({ project }) {
           <hr className="mt-4 mb-3" />
 
           {/* <!-- Porject description --> */}
-          <p className="clamp-5 md:line-clamp-3 hover:line-clamp-none active:line-clamp-none max-w-sm">
-            {desc}
-          </p>
+          <p className="clamp-5 max-w-sm">{desc}</p>
         </div>
 
-        <div className="">
+        <div>
           {/* <!-- Project Stack --> */}
           <p className="font-bold clamp-4 mt-5 mb-1">Built with:</p>
           <div className="flex flex-wrap space-x-2">

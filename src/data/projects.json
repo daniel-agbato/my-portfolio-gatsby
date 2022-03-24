@@ -17,7 +17,7 @@
       "https://github.com/Dani2294/calculator-app"
     ],
     "image": "../assets/images/calculator-app-thumb.png",
-    "stack": ["js", "tailwindcss"]
+    "stack": ["vanillaJS", "tailwindcss"]
   },
   {
     "title": "Hulu Clone",
@@ -37,7 +37,7 @@
       "https://github.com/Dani2294/redo-rest-countries-api-next-app"
     ],
     "image": "../assets/images/rest-countries-search-thumb.png",
-    "stack": ["nextjs", "tailwindcss", "api"]
+    "stack": ["react", "nextjs", "tailwindcss", "api"]
   },
   {
     "title": "WindBnb",
@@ -57,6 +57,23 @@
       "https://github.com/Dani2294/inotes-app"
     ],
     "image": "../assets/images/inotes-app-thumb.png",
-    "stack": ["js", "html&css"]
+    "stack": ["vanillaJS", "html&css"]
+  },
+  {
+    "title": "Netflix Clone",
+    "description": "In this project you can see the netflix home page from where you can sign in or sign up (handle with firebase auth). The brose page show a movies and series by category from TheMovieDB api which you can add to your list. The styling has been done with twin.macro which combines tailwind and styled-components",
+    "url": [
+      "https://netflix-clone-beryl.vercel.app/",
+      "https://github.com/Dani2294/netflix-clone"
+    ],
+    "image": "../assets/images/netflix-clone-thumb.png",
+    "stack": [
+      "react",
+      "firebase",
+      "react-router-dom",
+      "api",
+      "tailwind",
+      "styled-components"
+    ]
   }
 ]

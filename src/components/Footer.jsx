@@ -51,7 +51,10 @@ const Footer = () => {
                   rel="noreferrer"
                   className="border-2 border-var-off-white hover:border-var-secondary hover:bg-var-secondary rounded-lg p-2 group cursor-pointer"
                 >
-                  <MdAlternateEmail className="text-var-off-white" />
+                  <MdAlternateEmail
+                    title="send me an email"
+                    className="text-var-off-white"
+                  />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/daniel-agbato-06981b121/"
@@ -59,7 +62,10 @@ const Footer = () => {
                   rel="noreferrer"
                   className="border-2 border-var-off-white hover:border-var-secondary hover:bg-var-secondary rounded-lg p-2 group cursor-pointer"
                 >
-                  <SiLinkedin className="text-var-off-white" />
+                  <SiLinkedin
+                    title="send me a message on LinkedIn"
+                    className="text-var-off-white"
+                  />
                 </a>
               </div>
             </div>

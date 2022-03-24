@@ -109,6 +109,7 @@ function AboutMe({ home }) {
           </div>
           <div className="rounded-md overflow-hidden mt-7 w-full lg:h-[530px] sm:mt-0 sm:w-[35%]">
             <StaticImage
+              title="this is me yes"
               src="../assets/images/isThatMe.jpg"
               alt="my portrait"
               layout="fullWidth"

@@ -15,6 +15,7 @@ function NavBar() {
         <div className="logo">
           <Link to="/">
             <StaticImage
+              title="site logo"
               src="../assets/images/daniAgb-logo.svg"
               alt="site logo"
               height={60}
