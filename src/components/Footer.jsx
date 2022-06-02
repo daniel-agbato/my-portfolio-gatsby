@@ -42,7 +42,7 @@ const Footer = () => {
             <div className="mb-14">
               <p className="text-var-off-white clamp-4 mb-4 max-w-lg">
                 Ready to talk with me? Click on one of the following buttons to
-                send me an email or a message on my socials:
+                get in touch:
               </p>
               <div className="contact-links flex items-center space-x-5">
                 <a

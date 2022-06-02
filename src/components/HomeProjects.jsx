@@ -18,12 +18,12 @@ function HomeProjects({ projects }) {
             </div>
             <Link
               to="/projects"
-              className="hidden sm:flex page-link clamp-4 group"
+              className="hidden sm:flex page-link clamp-4 hover:opacity-70"
             >
               See all projects{" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-16 mt-[4px] group-hover:ml-3"
+                className="h-6 w-16 mt-[4px]"
                 fill="none"
                 viewBox="10 0 24 24"
                 stroke="currentColor"
@@ -40,12 +40,12 @@ function HomeProjects({ projects }) {
           <ProjectsContainer projects={projects} />
           <Link
             to="/projects"
-            className="sm:hidden page-link clamp-3 sm:clamp-4 group mt-8"
+            className="sm:hidden page-link clamp-3 sm:clamp-4 mt-8 hover:opacity-70"
           >
             See all projects{" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-16 mt-[4px] group-hover:ml-3"
+              className="h-6 w-16 mt-[4px]"
               fill="none"
               viewBox="10 0 24 24"
               stroke="currentColor"

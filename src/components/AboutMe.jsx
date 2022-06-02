@@ -61,11 +61,14 @@ function AboutMe({ home }) {
               {home ? (
                 <>
                   <hr />
-                  <Link to="/about#stack" className="page-link clamp-4 group">
+                  <Link
+                    to="/about#stack"
+                    className="page-link clamp-4 hover:opacity-70"
+                  >
                     Learn more about the developer{" "}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="h-6 w-16 mt-[4px] group-hover:ml-3"
+                      className="h-6 w-16 mt-[4px]"
                       fill="none"
                       viewBox="10 0 24 24"
                       stroke="currentColor"
@@ -93,14 +96,13 @@ function AboutMe({ home }) {
                       >
                         My GitHub
                       </a>
-                      {/*  <a
-                        href={`../docs/my-cv.pdf`}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="h-7 w-20 bg-var-very-dark-blue rounded-lg text-var-off-white clamp-5 flex items-center justify-center"
+                      <a
+                        download={true}
+                        href="/cv-daniel-agbato.pdf"
+                        className="clamp-5 flex items-center justify-center h-7 w-20 border-2 border-var-primary rounded-xl font-bold hover:border-var-secondary hover:bg-var-secondary hover:text-var-off-white cursor-pointer transform hover:opacity-80 active:scale-95"
                       >
-                        Print my CV
-                      </a> */}
+                        My Resume
+                      </a>
                     </div>
                   </div>
                 </>

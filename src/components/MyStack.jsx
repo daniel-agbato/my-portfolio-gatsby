@@ -1,17 +1,11 @@
 import * as React from "react";
 import { IconContext } from "react-icons";
-import {
-  FaGithub,
-  FaHtml5,
-  FaCss3Alt,
-  FaSass,
-  FaBootstrap,
-  FaReact,
-} from "react-icons/fa";
+import { FaGithub, FaHtml5, FaCss3Alt, FaSass, FaReact } from "react-icons/fa";
 import {
   SiTailwindcss,
   SiStyledcomponents,
   SiJavascript,
+  SiTypescript,
   SiPhp,
   SiSymfony,
 } from "react-icons/si";
@@ -26,9 +20,7 @@ function MyStack() {
     >
       <section id="stack" className="py-5 my-10 scroll-mt-28">
         <p className="sub-heading clamp-5">Thechnologies that I use</p>
-        <h2 className="font-heading clamp-2 font-bold mb-7">
-          My everyday stack
-        </h2>
+        <h2 className="font-heading clamp-2 font-bold mb-7">My stack</h2>
         <div className="grid grid-container-auto-fit gap-4">
           <div className="icon">
             <FaGithub title="github" />
@@ -43,13 +35,13 @@ function MyStack() {
             <SiTailwindcss title="tailwindcss" />
           </div>
           <div className="icon">
-            <FaSass title="sass" />
-          </div>
-          <div className="icon">
             <SiStyledcomponents title="styled-components" />
           </div>
           <div className="icon">
             <SiJavascript title="javascript" />
+          </div>
+          <div className="icon">
+            <SiTypescript title="typescript" />
           </div>
           <div className="icon">
             <FaReact title="react" />

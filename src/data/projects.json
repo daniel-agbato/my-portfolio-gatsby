@@ -60,17 +60,17 @@
     "stack": ["vanillaJS", "html&css"]
   },
   {
-    "title": "Netflix Clone",
-    "description": "In this project you can see the netflix home page from where you can sign in or sign up (handle with firebase auth). The brose page show a movies and series by category from TheMovieDB api which you can add to your list. The styling has been done with twin.macro which combines tailwind and styled-components",
+    "title": "Newflix",
+    "description": "This is a netflix clone where you can sign in or sign up (firebase auth). The browse page show  movies or series, from TheMovieDB api, which you can add to your list (cloud firestore). The styling has been done with twin.macro which combines tailwind and styled-components",
     "url": [
-      "https://netflix-clone-beryl.vercel.app/",
-      "https://github.com/Dani2294/netflix-clone"
+      "https://newflix-ten.vercel.app/browse",
+      "https://github.com/Dani2294/Newflix"
     ],
     "image": "../assets/images/netflix-clone-thumb.png",
     "stack": [
       "react",
-      "firebase",
       "react-router-dom",
+      "firebase",
       "api",
       "tailwind",
       "styled-components"
