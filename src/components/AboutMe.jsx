@@ -98,7 +98,9 @@ function AboutMe({ home }) {
                       </a>
                       <a
                         download={true}
-                        href="/cv-daniel-agbato.pdf"
+                        href="https://github.com/Dani2294/my-portfolio-gatsby/blob/main/src/assets/docs/cv-daniel-agbato.pdf"
+                        target="_blank"
+                        rel="noreferrer"
                         className="clamp-5 flex items-center justify-center h-7 w-20 border-2 border-var-primary rounded-xl font-bold hover:border-var-secondary hover:bg-var-secondary hover:text-var-off-white cursor-pointer transform hover:opacity-80 active:scale-95"
                       >
                         My Resume
