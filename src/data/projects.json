@@ -75,5 +75,41 @@
       "tailwind",
       "styled-components"
     ]
+  },
+  {
+    "title": "Proshop",
+    "description": "This is an ecoomerce website built from scratch with the MERN stack. You can proceed to dumy purchase, manage (CRUD operation) users, orders and products as an admin.",
+    "url": [
+      "https://proshop-app-mernstack.herokuapp.com/",
+      "https://github.com/Dani2294/Ecommerce-MERN"
+    ],
+    "image": "../assets/images/proshop-thumb.png",
+    "stack": [
+      "mangoDB",
+      "expressJS",
+      "react",
+      "nodeJS",
+      "react-router-dom",
+      "redux",
+      "react-bootstrap",
+      "paypal"
+    ]
+  },
+  {
+    "title": "Spotify clone",
+    "description": "This is an ecoomerce website built from scratch with the MERN stack. You can proceed to dumy purchase, manage (CRUD operation) users, orders and products as an admin.",
+    "url": [
+      "https://spotify-clone-next-eta.vercel.app/",
+      "https://github.com/Dani2294/spotify-clone-next"
+    ],
+    "image": "../assets/images/spotify-next-thumb.png",
+    "stack": [
+      "react",
+      "nextjs",
+      "recoil",
+      "next-auth",
+      "spotify api",
+      "tailwindcss"
+    ]
   }
 ]
