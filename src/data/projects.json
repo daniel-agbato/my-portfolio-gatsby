@@ -97,7 +97,7 @@
   },
   {
     "title": "Spotify clone",
-    "description": "This is an ecoomerce website built from scratch with the MERN stack. You can proceed to dumy purchase, manage (CRUD operation) users, orders and products as an admin.",
+    "description": "This project is a clone of Spotify web app using NextJS. You can login with your spotify account, play songs from your playlists and liked songs. This project use the Spotify API to work",
     "url": [
       "https://spotify-clone-next-eta.vercel.app/",
       "https://github.com/Dani2294/spotify-clone-next"
