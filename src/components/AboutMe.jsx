@@ -96,16 +96,14 @@ function AboutMe({ home }) {
                       >
                         My GitHub
                       </a>
-                      {/*  <a
-                        href="./cv-daniel-agbato.pdf"
-                        download
-                        type="button"
+                      <a
+                        href="/cv-daniel-agbato.pdf"
                         target="_blank"
                         rel="noreferrer"
                         className="clamp-5 flex items-center justify-center h-7 w-20 border-2 border-var-primary rounded-xl font-bold hover:border-var-secondary hover:bg-var-secondary hover:text-var-off-white cursor-pointer transform hover:opacity-80 active:scale-95"
                       >
                         My Resume
-                      </a> */}
+                      </a>
                     </div>
                   </div>
                 </>
