@@ -89,7 +89,7 @@ function AboutMe({ home }) {
                     <h3 className="clamp-4 font-heading font-bold">My Links</h3>
                     <div className="flex space-x-4">
                       <a
-                        href="https://github.com/Dani2294"
+                        href="https://github.com/daniel-agbato"
                         target="_blank"
                         rel="noreferrer"
                         className="clamp-5 flex items-center justify-center h-7 w-20 border-2 border-var-primary rounded-xl font-bold hover:border-var-secondary hover:bg-var-secondary hover:text-var-off-white cursor-pointer transform hover:opacity-80 active:scale-95"

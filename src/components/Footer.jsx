@@ -57,7 +57,7 @@ const Footer = () => {
                   />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/daniel-agbato-06981b121/"
+                  href="https://www.linkedin.com/in/daniel-agbato/"
                   target="_blank"
                   rel="noreferrer"
                   className="border-2 border-var-off-white hover:border-var-secondary hover:bg-var-secondary rounded-lg p-2 group cursor-pointer"
